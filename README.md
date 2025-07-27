@@ -1,11 +1,68 @@
-# Handwritten-Answer-Script-Grading-System
-automated grading system for handwritten answer scripts, aimed
-at reducing subjectivity and enhancing efficiency. The system employs Optical Character
-Recognition (OCR) to convert handwritten text into digital format. Subse- quently, spelling
-errors are identified and corrected to ensure accurate semantic analysis. The corrected text is
-semantically matched with a pre-stored answer key using similar- ity algorithms. Grading is
-then assigned based on the number of spelling errors and the semantic alignment with the
-model answer
+# 📝 Handwritten Answer Grading System using OCR and AI
+
+This project automates the grading of handwritten answers using Optical Character Recognition (OCR) and AI techniques to ensure faster, more consistent, and less biased evaluation.
+
+---
+
+## 🚀 Features
+
+- 📷 Upload handwritten answer images.
+- 🔍 Extract text using OCR (Optical Character Recognition).
+- 🧠 AI-based error correction for OCR mistakes.
+- ✍️ Spelling and grammar checking with semantic understanding.
+- 📊 Automated grading of the answer based on correctness and relevance.
+
+---
+
+## 🧩 How It Works
+
+1. **Image Upload**  
+   Users upload a photo/scan of the handwritten answer script.
+
+2. **OCR Processing**  
+   The image is processed using an OCR engine to extract raw text.
+
+3. **AI Text Correction**  
+   A sequence-to-sequence model (or other NLP technique) is used to clean and correct OCR errors.
+
+4. **Grammatical Analysis**  
+   Tools like language models and grammar correction APIs analyze the structure and semantics.
+
+5. **Scoring System**  
+   A scoring algorithm compares the cleaned text with model answers and assigns marks accordingly.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Tesseract OCR / EasyOCR  
+- Seq2Seq / Transformer models (for correction)  
+- NLTK / spaCy / LanguageTool (for grammar)  
+- Flask / Streamlit (for frontend, if applicable)
+
+---
+
+## 📦 Dataset
+
+You can use publicly available datasets like:
+- IAM Handwriting Database (for initial testing)
+- Custom datasets with scanned handwritten answers (recommended for domain adaptation)
+
+---
+
+## ✅ Use Cases
+
+- School & University exams
+- Online assessments
+- Competitive test evaluations
+- Reducing teacher workload in large classrooms
+
+---
+
+## 📁 Project Structure
+
+
 ![WhatsApp Image 2025-07-21 at 00 32 28_2126f215](https://github.com/user-attachments/assets/d8531e4c-6705-45a6-8be7-ad33079e9c6f)
 ![WhatsApp Image 2025-07-21 at 00 32 49_4f7a6a57](https://github.com/user-attachments/assets/07ef493e-c714-4b9f-8b05-5d3f768b1dd8)
 ![WhatsApp Image 2025-07-21 at 00 33 30_7fd54085](https://github.com/user-attachments/assets/7b893dd4-5096-4a82-9bb5-4abb676d8332)
