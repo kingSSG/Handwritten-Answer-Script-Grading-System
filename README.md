@@ -61,6 +61,7 @@ You can use publicly available datasets like:
 ---
 
 ## 📁 Project Structure
+<img width="3780" height="1890" alt="ocr" src="https://github.com/user-attachments/assets/1f86cd34-a140-4ac3-b4e4-04536a1e9758" />
 
 
 ![WhatsApp Image 2025-07-21 at 00 32 28_2126f215](https://github.com/user-attachments/assets/d8531e4c-6705-45a6-8be7-ad33079e9c6f)
